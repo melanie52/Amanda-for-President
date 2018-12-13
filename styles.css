@@ -1,0 +1,73 @@
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.action h2 {
+    text-shadow: 2px 2px pink;
+    color:blue;
+}
+
+.end h2 {
+    text-shadow: 2px 2px pink;
+    color:purple;
+}
+p {
+    font-size: 20px;
+}
+p{
+    text-align:center;
+}
+.heading, .action, .end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+   
+}
+.heading{
+    background:url("https://www.muralswallpaper.com/app/uploads/black-marble-textures-plain.jpg");
+    color:white;
+}
+.action{
+    background:url("data:image/jpeg;base64,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");  
+   
+}
+.action button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+.action button:hover {
+    background: pink;
+    color: blue;
+}
+.photos img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+   
+}
+.photos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    background: pink;
+}
+.photos img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.end{
+    background:url("https://previews.123rf.com/images/freemaneg/freemaneg1608/freemaneg160800004/62675765-texture-background-blue-marble-sky-blue-texture-of-marble-floor-.jpg");
+    
+}
